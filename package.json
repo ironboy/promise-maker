@@ -1,0 +1,14 @@
+{
+  "name": "promisemaker",
+  "description": "Converts methods using callbacks into methods returning promises. Can convert a whole module/library (like fs) at once.",
+  "author": "Thomas Frank <thomas@nodebite.se> (http://nodebite.se)",
+  "version": "0.1.0",
+  "main": "promise-maker.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ironboy/promise-maker"
+  },
+  "bugs": "https://github.com/ironboy/promise-maker/issues",
+  "license" : "MIT",
+  "dependencies": {} 
+}
