@@ -1,4 +1,4 @@
-# promisemaker 0.1.1 - documentation
+# promisemaker 0.1.2 - documentation
 
 Converts methods using callbacks into methods returning promises. Can convert a whole module/library (like fs) at once.
 
@@ -13,7 +13,7 @@ Install: **npm install promisemaker**
 
 ### Simple example - convert the fs module
 ```javascript
-var pm = require("./promise-maker");
+var pm = require("promisemaker");
 
 // Wrap the fs module with promisemaker
 var fs = pm( require("fs") );
@@ -31,7 +31,7 @@ fs.readFile("./package.json","utf8").then(
 
 ### Advanced example - convert the mysql module
 ```javascript
-var pm = require("./promise-maker");
+var pm = require("promisemaker");
 
 var mysql = require('mysql');
 
@@ -72,7 +72,7 @@ Although we use traditional ES6 above, obviously one of the
 cool things with *promisemaker* is that if we run it in an
 ES7 environment we can use it with awaits:
 ```javascript
-var pm = require("./promise-maker");
+var pm = require("promisemaker");
 
 // Wrap the fs module with promisemaker
 var fs = pm( require("fs") );
