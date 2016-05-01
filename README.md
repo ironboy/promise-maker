@@ -1,4 +1,4 @@
-# promisemaker 0.1.0 - documentation
+# promisemaker 0.1.1 - documentation
 
 Converts methods using callbacks into methods returning promises. Can convert a whole module/library (like fs) at once.
 

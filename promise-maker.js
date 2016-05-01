@@ -1,5 +1,5 @@
 /*
-  promisemaker 0.1.0
+  promisemaker 0.1.1
  
   April 2016 Nodebite AB, Thomas Frank
 
